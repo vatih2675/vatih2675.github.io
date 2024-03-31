@@ -13,6 +13,21 @@ modalClose.addEventListener("click", function (e) {
   modal.classList.remove("active");
 });
 
+// Render Web App Github
+const modalContent = document.querySelector(".modal-content");
+let contentWebApp = "";
+webApp.forEach((wa) => {
+  contentWebApp += `<a class="card" href="${wa.link}" target="_blank">
+                    <img
+                      src="assets/img/webapp/${wa.gambar}"
+                      class="card-img"
+                      alt="${wa.judul}"
+                    />
+                    <h4 class="card-title">${wa.judul}</h4>
+                  </a>`;
+});
+modalContent.innerHTML = contentWebApp;
+
 // Waktu
 let spanDate = document.querySelectorAll(".date");
 let spanClock = document.querySelectorAll(".clock");
