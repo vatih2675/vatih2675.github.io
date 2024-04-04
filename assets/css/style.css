@@ -207,3 +207,26 @@ body {
   color: var(--sunglow);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body{
+    font-size: 90%;
+  }
+
+  .cover p{
+    font-size: 0.7rem;
+  }
+
+  .cover button {
+    font-size: 90%;
+    padding: 0.6rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  body{
+    font-size: 65%;
+  }
+}
