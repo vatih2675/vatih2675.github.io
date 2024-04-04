@@ -4,4 +4,9 @@ const webApp = [
     link: "ruslansamuel",
     gambar: "ruslansamuel.png",
   },
+  {
+    judul: "Bintang Muda Indonusa",
+    link: "bintang-muda-indonusa",
+    gambar: "bmi.png",
+  },
 ];
