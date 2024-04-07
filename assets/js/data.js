@@ -6,7 +6,7 @@ const webApp = [
   },
   {
     judul: "Bintang Muda Indonusa",
-    link: "bintang-muda-indonusa",
+    link: "https://bintangmudaindonusa.github.io",
     gambar: "bmi.png",
   },
 ];
